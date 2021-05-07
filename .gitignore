@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-
+miniprogram_npm
+.gitignore
 # Editor directories and files
 .idea
 .vscode
