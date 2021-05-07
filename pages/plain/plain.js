@@ -1,5 +1,5 @@
 const WxFly = require('../../lib/wxplain.js');
-
+const System = wx.getSystemInfoSync();
 Page({
     data: {
         modalHidden: "modal_hide",
@@ -31,8 +31,8 @@ Page({
             {
                 ctx: wx.createContext(),
                 id: 'plainId',
-                height: 625,
-                width: 375,
+                height: System.windowHeight,
+                width: System.windowWidth,
             });
         fly.on('over', packet => {
             this.setData({ score: packet.score, modalHidden: "" });

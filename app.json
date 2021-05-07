@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/plain/plain"
+    "pages/plain/plain",
+    "pages/2048/2048"
   ],
   "window":{
     "backgroundTextStyle":"light",
