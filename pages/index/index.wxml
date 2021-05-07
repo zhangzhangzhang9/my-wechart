@@ -1,4 +1,4 @@
-<van-grid clickable column-num="3">
+<van-grid clickable column-num="2">
   <van-grid-item
     icon="fire-o"
     link-type="navigateTo"
@@ -10,11 +10,5 @@
     link-type="navigateTo"
     url="/pages/2048/2048"
     text="2048"
-  />
-  <van-grid-item
-    icon="fire-o"
-    link-type="navigateTo"
-    url="/pages/dashboard/index"
-    text="ReLaunch 跳转"
   />
 </van-grid>
