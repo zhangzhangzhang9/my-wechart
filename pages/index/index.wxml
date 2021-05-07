@@ -1,0 +1,20 @@
+<van-grid clickable column-num="3">
+  <van-grid-item
+    icon="fire-o"
+    link-type="navigateTo"
+    url="/pages/plain/plain"
+    text="飞机大战"
+  />
+  <van-grid-item
+    icon="fire-o"
+    link-type="navigateTo"
+    url="/pages/dashboard/index"
+    text="ReLaunch 跳转"
+  />
+  <van-grid-item
+    icon="fire-o"
+    link-type="navigateTo"
+    url="/pages/dashboard/index"
+    text="ReLaunch 跳转"
+  />
+</van-grid>
